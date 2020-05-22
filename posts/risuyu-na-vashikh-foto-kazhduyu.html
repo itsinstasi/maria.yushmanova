@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>metgala</title>
-    <meta name="title" content="metgala">
+    <title>Рисую на ваших фото каждую неделю в прямом эфире!</title>
     
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
 	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <meta name="description" content="Рисую на ваших фото каждую неделю в прямом эфире!">
+    <meta name="keywords" content="" />
     
     <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
@@ -16,10 +18,10 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
@@ -27,9 +29,23 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
+    
+    <link rel="image_src" href="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e15/97961077_309186410071985_4033967420959178329_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=105&_nc_ohc=2upW_PhFhxYAX96hWDk&oh=af7b6542c5f5c7a9bf4a9a9d3c07e726&oe=5EC95F6F" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maria-yushmanova.itsinsta.site/posts/risuyu-na-vashikh-foto-kazhduyu.html" />
+    <meta property="og:image" content="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e15/97961077_309186410071985_4033967420959178329_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=105&_nc_ohc=2upW_PhFhxYAX96hWDk&oh=af7b6542c5f5c7a9bf4a9a9d3c07e726&oe=5EC95F6F" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="612"/>
+    <meta property="og:image:height" content="1088"/>
+    <meta property="og:title" content="Рисую на ваших фото каждую неделю в прямом эфире!" />
+    <meta property="og:description" content="Рисую на ваших фото каждую неделю в прямом эфире!" />
+    <meta property="og:locale" content="Ru-ru" />
+    <meta property="og:site_name" content="maria.yushmanova" />
 
 	<!--modernizr-->
 	<script src="../js/vendors/modernizr-custom.js"></script>
+
 
 
 
@@ -44,7 +60,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -54,12 +70,6 @@
 						</a>
 						<div class="header__title">FASHION & EVENT ILLUSTRATOR</div>
 					</div>
-					<!--<div class="header__right">
-						<form action="#" method="get" class="search">
-							<input type="search" class="input search__input" placeholder="Поиск">
-							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					</div>-->
 				</div>
 			</div>
 		</header>	
@@ -67,11 +77,13 @@
 			<section class="big-banner" style="background-image: url(https://lichnyj-brend.ru/img/landing/marine.jpg);">
 				<div class="container">
 					<div class="big-banner__wrapper">
-						<h1 class="big-banner__title">metgala</h1>
-						<div class="big-banner__bar">
+						<h1 class="big-banner__title">Рисую на ваших фото каждую...</h1>
+						<div class="big-banner__bar"
+>
 							<div class="main-sec__contacts">
 								<div class="main-sec__contacts-wrap" id="js-cont-list">
-									<div class="main-sec__contacts-btn" id="js-cont-list-btn" onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
+									<div class="main-sec__contacts-btn" id="js-cont-list-btn" 
+										onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
 									<ul class="main-sec__contacts-list">
 										<li><a href="https://wa.me/+79227856351" 
 										target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
@@ -95,7 +107,7 @@
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="stories__slide" title="yushmanova art">
-										<a href="./yushmanova-art.html">
+										<a href="./tags/./yushmanova-art.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/yushmanova-art.png);"></div>
 											<div class="stories__slide-txt">yushmanova art</div>
 										</a>
@@ -103,7 +115,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="yushmanova for you">
-										<a href="./yushmanova-for-you.html">
+										<a href="./tags/./yushmanova-for-you.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/yushmanova-for-you.png);"></div>
 											<div class="stories__slide-txt">yushmanova for you</div>
 										</a>
@@ -111,7 +123,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="одниммаркером">
-										<a href="./odnimmarkerom.html">
+										<a href="./tags/./odnimmarkerom.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/odnimmarkerom.png);"></div>
 											<div class="stories__slide-txt">одниммаркером</div>
 										</a>
@@ -119,7 +131,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="metgala">
-										<a href="./metgala.html">
+										<a href="./tags/./metgala.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/metgala.png);"></div>
 											<div class="stories__slide-txt">metgala</div>
 										</a>
@@ -127,7 +139,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="odlrworkof art">
-										<a href="./odlrworkof-art.html">
+										<a href="./tags/./odlrworkof-art.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/odlrworkof-art.png);"></div>
 											<div class="stories__slide-txt">odlrworkof art</div>
 										</a>
@@ -135,7 +147,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="mcqueencreators">
-										<a href="./mcqueencreators.html">
+										<a href="./tags/./mcqueencreators.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/mcqueencreators.png);"></div>
 											<div class="stories__slide-txt">mcqueencreators</div>
 										</a>
@@ -143,7 +155,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="модныеак центы журнал">
-										<a href="./modnyeak-tsenty-zhurnal.html">
+										<a href="./tags/./modnyeak-tsenty-zhurnal.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/modnyeak-tsenty-zhurnal.png);"></div>
 											<div class="stories__slide-txt">модныеак центы журнал</div>
 										</a>
@@ -151,7 +163,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="digital">
-										<a href="./digital.html">
+										<a href="./tags/./digital.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/digital.png);"></div>
 											<div class="stories__slide-txt">digital</div>
 										</a>
@@ -159,7 +171,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="мода еда все">
-										<a href="./moda-eda-vse.html">
+										<a href="./tags/./moda-eda-vse.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/moda-eda-vse.png);"></div>
 											<div class="stories__slide-txt">мода еда все</div>
 										</a>
@@ -167,7 +179,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="procreate">
-										<a href="./procreate.html">
+										<a href="./tags/./procreate.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/procreate.png);"></div>
 											<div class="stories__slide-txt">procreate</div>
 										</a>
@@ -175,7 +187,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="ilovecondénast">
-										<a href="./ilovecondénast.html">
+										<a href="./tags/./ilovecondénast.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/ilovecondénast.png);"></div>
 											<div class="stories__slide-txt">ilovecondénast</div>
 										</a>
@@ -183,7 +195,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="модныеак центы сумки">
-										<a href="./modnyeak-tsenty-sumki.html">
+										<a href="./tags/./modnyeak-tsenty-sumki.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/modnyeak-tsenty-sumki.png);"></div>
 											<div class="stories__slide-txt">модныеак центы сумки</div>
 										</a>
@@ -191,7 +203,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="прокачай арт аккаунт7">
-										<a href="./prokachay-art-akkaunt7.html">
+										<a href="./tags/./prokachay-art-akkaunt7.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/prokachay-art-akkaunt7.png);"></div>
 											<div class="stories__slide-txt">прокачай арт аккаунт7</div>
 										</a>
@@ -199,7 +211,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="condenastlovestalents">
-										<a href="./condenastlovestalents.html">
+										<a href="./tags/./condenastlovestalents.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/condenastlovestalents.png);"></div>
 											<div class="stories__slide-txt">condenastlovestalents</div>
 										</a>
@@ -207,7 +219,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="прокачай арт аккаунт сториз">
-										<a href="./prokachay-art-akkaunt-storiz.html">
+										<a href="./tags/./prokachay-art-akkaunt-storiz.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/prokachay-art-akkaunt-storiz.png);"></div>
 											<div class="stories__slide-txt">прокачай арт аккаунт сториз</div>
 										</a>
@@ -215,7 +227,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="оставайтесьдомаитворите">
-										<a href="./ostavaytes-domaitvorite.html">
+										<a href="./tags/./ostavaytes-domaitvorite.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/ostavaytes-domaitvorite.png);"></div>
 											<div class="stories__slide-txt">оставайтесьдомаитворите</div>
 										</a>
@@ -230,31 +242,124 @@
 			</div>
 			<nav class="breadcrumbs">
 				<div class="container">
-					<a href="../main.html">Главная</a> / <span>metgala</span>
+					<a href="../main.html">Главная</a> / <span>Рисую на ваших фото каждую</span>
 				</div>
 			</nav>
-			<div class="tag">
+			<article class="article">
 				<div class="container">
-					<div class="tag__group">
-						<div class="tag__item-list">
-							<a href="../posts/./derzskiy-kak-i-samo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/95799358_109155767311899_1351170692687246332_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=aYBW3nzkyTgAX8LozRb&oh=ac1cdbe0ef431d8071a02052e2d2f926&oe=5EF093AA" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-05-03">03 May 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>97</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Дерзский как и само</h2>
-										<p>Дерзский как и само 💥скетч для В платье от @oscardelarenta неповторимая @sarahjessicaparker</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
+					<div class="article__header">
+						<div class="article__datas">
+							<div class="article__datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-05-21">21 May 2020</time></div>
+							<a href="https://www.instagram.com/p/CAdEONDHD6G/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</a>
+							<a href="https://www.instagram.com/p/CAdEONDHD6G/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>21</a>
 						</div>
 					</div>
-				</div>
-			</div>			
+					<div class="article__wrap" id="ja-article-wrap">
+						<div class="article-main">
+							<div class="article-content">
+								<figure>
+									<img src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e15/97961077_309186410071985_4033967420959178329_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=105&_nc_ohc=2upW_PhFhxYAX96hWDk&oh=af7b6542c5f5c7a9bf4a9a9d3c07e726&oe=5EC95F6F" alt="">
+								</figure> 
+								<p><a href="https://www.instagram.com/p/CAdEONDHD6G/" 
+									target="_blank">Смотрите видео</a></p> 
+								<p>Рисую на ваших фото каждую неделю в прямом эфире!<br/></p> 
+							</div>
+						<div>
+							<a href="https://www.instagram.com/p/CAdEONDHD6G/" 
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong><small>Instagram</small>
+							</a>
+						</div>
+
+						</div>
+						<aside class="article-bar">
+							<h2 class="article-more__title">ПОХОЖИЕ</h2>
+							<div class="article-bar__tagsgroupe" id="js-tags">
+							</div>
+						</aside>
+					</div>
+					<section class="article-more">
+						<div class="container">
+							<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
+							<div class="article-more__list">
+								<a href="./planirovala-segodnya-zapisat-.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>98</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/99126782_2782105128581513_8132423690528520787_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=105&_nc_ohc=-swAg2xCeNEAX-vj046&oh=0569986b0d778d79dd057c17bc44befc&oe=5EF1641D" alt="Планировала сегодня записать">
+									</div>
+									<div class="article-more__item-name">Планировала сегодня записать</div>
+								</a>
+								<a href="./derzskiy-kak-i-samo.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>97</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/95799358_109155767311899_1351170692687246332_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=aYBW3nzkyTgAX8LozRb&oh=ac1cdbe0ef431d8071a02052e2d2f926&oe=5EF093AA" alt="Дерзский как и само">
+									</div>
+									<div class="article-more__item-name">Дерзский как и само</div>
+								</a>
+								<a href="./zavtra-vecherom-risuyu.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>93</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/95778673_2834153396702746_8964620573957256591_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=110&_nc_ohc=KHkXqOVRiDwAX_3VvJL&oh=cfef9eaf5c7f162c48cf856094f1f503&oe=5EF28F1B" alt="Завтра вечером рисую">
+									</div>
+									<div class="article-more__item-name">Завтра вечером рисую</div>
+								</a>
+								<a href="./moya-lyubimaya-chast--v-sozdanii.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>91</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/95357962_555143445409575_7286605246673406733_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=Nj7oETbSfUEAX9wkBQ0&oh=ac97609e8cbcc3f069662f25e241af62&oe=5EEFC1A2" alt="Моя любимая часть в создании">
+									</div>
+									<div class="article-more__item-name">Моя любимая часть в создании</div>
+								</a>
+								<a href="./segodnya-prosto-sketchi.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>87</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/94349287_164949738199542_3354446085874071596_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=BT2RGnJVPkkAX9-7mXQ&oh=05381d6d575dfeb49bab6f0cb97df772&oe=5EF015FF" alt="Сегодня просто скетчи">
+									</div>
+									<div class="article-more__item-name">Сегодня просто скетчи</div>
+								</a>
+								<a href="./cover-artwork-for-xpurplehazemagazine.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>86</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/95148897_675438949925256_7230931327645040461_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=100&_nc_ohc=yX_Yok6l8poAX8C9hHV&oh=0a405c71ffbcf7860c2afccf1783d4e2&oe=5EF05849" alt="Cover artwork for @purplehazemagazine">
+									</div>
+									<div class="article-more__item-name">Cover artwork for @purplehazemagazine</div>
+								</a>
+								<a href="./podgotovka-illyustratsii-k-pechati.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>74</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/97596799_169961291222174_5247895686964594180_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=VIaUMZX0W9gAX9mdl73&oh=cfa970a9cd2e3caf596b4799839a02ae&oe=5EF15A90" alt="Подготовка иллюстрации к печати">
+									</div>
+									<div class="article-more__item-name">Подготовка иллюстрации к печати</div>
+								</a>
+								<a href="./skoro-skoro-otkroyutsya-banketnye.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>73</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-1.cdninstagram.com/v/t51.2885-15/e35/97214083_159852742237711_7638727799454718743_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com&_nc_cat=107&_nc_ohc=T6K8IeqeSqkAX9fe_St&oh=c84a74e6757fcf7caf4f2bb44126284a&oe=5EF2599B" alt="Скоро-скоро откроются банкетные">
+									</div>
+									<div class="article-more__item-name">Скоро-скоро откроются банкетные</div>
+								</a>
+							</div>
+						</div>
+					</section>		
+				</div>			
+			</article>			
 		</div>			
 		<div class="banner">
 			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
@@ -295,7 +400,7 @@
 
 				</div>
 			</div>
-		</div>			
+		</div>		
 	</div>
 	<!--swiper-->
 	<script src="../js/vendors/swiper.min.js"></script>
